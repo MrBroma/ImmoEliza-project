@@ -1,0 +1,197 @@
+{
+    "property": {
+      "type": "HOUSE",
+      "subtype": "HOUSE",
+      "title": "Grande maison d'habitation, habitable immédiatement !",
+      "description": "Sorry, there is no English translation. Wellimmo vous emmène à Forrières, charmant village de la commune de Nassogne, à la découverte de cette maison en pierre, rénovée récemment. Avec 3 grandes chambres (dont une avec terrasse et vue sur le jardin) et un bureau, deux salles de bain, de belles pièces de vie, un garage, des espaces de rangement, le grenier aménageable, une terrasse et un petit jardin, elle est parfaite pour une famille ! Elle dispose en outre d'une agréable situation dans le village, mais au long d'une voirie privative. A visiter sans tarder !",
+      "name": null,
+      "isHolidayProperty": null,
+      "bedroomCount": 3,
+      "bedrooms": [
+        {
+          "surface": 16
+        },
+        {
+          "surface": 15
+        },
+        {
+          "surface": 13
+        }
+      ],
+      "bathroomCount": 2,
+      "bathrooms": [],
+      "location": {
+        "country": "Belgium",
+        "region": "Wallonie",
+        "province": "Luxembourg",
+        "district": "Marche-en-Famenne",
+        "locality": "NASSOGNE",
+        "postalCode": "6950",
+        "street": "de la Culée",
+        "number": "4",
+        "box": null,
+        "propertyName": null,
+        "floor": null,
+        "latitude": 50.1109477,
+        "longitude": 5.3664669,
+        "distance": null,
+        "approximated": null,
+        "regionCode": "WALLONIE",
+        "type": "COUNTRY",
+        "hasSeaView": null,
+        "pointsOfInterest": null,
+        "placeName": "Famenne-Ardenne"
+      },
+      "netHabitableSurface": 120,
+      "roomCount": null,
+      "monthlyCosts": 0,
+      "attic": {
+        "isIsolated": null,
+        "isAccessibleWithFixedStairs": null,
+        "surface": null
+      },
+      "hasAttic": true,
+      "basement": {
+        "surface": 20
+      },
+      "hasBasement": true,
+      "hasDressingRoom": null,
+      "diningRoom": {
+        "surface": null
+      },
+      "hasDiningRoom": true,
+      "building": {
+        "annexCount": null,
+        "condition": "JUST_RENOVATED",
+        "constructionYear": 1950,
+        "facadeCount": 2,
+        "floorCount": 3,
+        "streetFacadeWidth": 9
+      },
+      "propertyCertificates": {
+        "builtPlanStatus": null,
+        "globalInsulationLevel": null,
+        "oilTankCertificateStatus": "NO",
+        "primaryEnergyConsumptionLevel": 0,
+        "hasAsbestosCertificate": false
+      },
+      "hasCaretakerOrConcierge": null,
+      "hasDisabledAccess": null,
+      "hasLift": null,
+      "constructionPermit": {
+        "constructionType": null,
+        "floodZoneType": "NON_FLOOD_ZONE",
+        "isObtained": false,
+        "hasObligationToConstruct": null,
+        "hasPlotDivisionAuthorization": false,
+        "hasPossiblePriorityPurchaseRight": false,
+        "isBreachingUrbanPlanningRegulation": null,
+        "floodZoneIconUrl": null,
+        "totalBuildableGroundFloorSurface": 0,
+        "urbanPlanningInformation": null,
+        "pScore": null,
+        "gScore": null
+      },
+      "energy": {
+        "heatingType": "FUELOIL",
+        "hasHeatPump": null,
+        "hasPhotovoltaicPanels": null,
+        "hasThermicPanels": null,
+        "hasCollectiveWaterHeater": null,
+        "hasDoubleGlazing": null,
+        "performance": null
+      },
+      "kitchen": {
+        "surface": 6,
+        "type": "INSTALLED",
+        "hasOven": null,
+        "hasMicroWaveOven": null,
+        "hasDishwasher": null,
+        "hasWashingMachine": null,
+        "hasFridge": null,
+        "hasFreezer": null,
+        "hasSteamOven": null
+      },
+      "land": {
+        "hasGasWaterElectricityConnection": true,
+        "hasPlotToRear": null,
+        "isFacingStreet": null,
+        "isFlat": null,
+        "isWooded": null,
+        "landWidth": 0,
+        "latestUseDesignation": null,
+        "rearLand": null,
+        "sewerConnection": "CONNECTED",
+        "surface": 320
+      },
+      "laundryRoom": {
+        "surface": null
+      },
+      "hasLaundryRoom": true,
+      "livingRoom": {
+        "surface": 16
+      },
+      "hasLivingRoom": true,
+      "isFirstOccupation": null,
+      "hasBalcony": null,
+      "hasBarbecue": null,
+      "hasGarden": true,
+      "gardenSurface": 100,
+      "gardenOrientation": "NORTH_EAST",
+      "parkingCountIndoor": 2,
+      "parkingCountOutdoor": 1,
+      "parkingCountClosedBox": null,
+      "hasAirConditioning": null,
+      "hasArmoredDoor": null,
+      "hasVisiophone": null,
+      "hasSecureAccessAlarm": null,
+      "hasCableTV": null,
+      "hasDoorPhone": null,
+      "hasInternet": null,
+      "showerRoomCount": 0,
+      "showerRooms": [],
+      "specificities": {
+        "internalFixturesAndFittings": null,
+        "miscellaneousFixturesAndFittings": null,
+        "totalFloorSurface": null,
+        "accessDoorCount": null,
+        "sectionalDoorCount": null,
+        "slidingDoorCount": null,
+        "loadingBayCount": null,
+        "coveredBaysCount": null,
+        "loadingBayWithLiftingDeviceCount": null,
+        "ceilingHeight": null,
+        "maxAvailableHeight": null,
+        "minAvailableHeight": null,
+        "showroomSurface": null,
+        "hasReceptionDesk": null,
+        "shopWindowWidth": null,
+        "hasGoodwill": null,
+        "goodwillPrice": null,
+        "hasOffice": true,
+        "office": {
+          "surface": 7
+        },
+        "hasWorkspace": null,
+        "workspace": null
+      },
+      "toiletCount": 2,
+      "toilets": [],
+      "hasFitnessRoom": null,
+      "hasTennisCourt": null,
+      "hasSwimmingPool": null,
+      "hasSauna": null,
+      "hasJacuzzi": null,
+      "hasHammam": null,
+      "bedroomSurface": null,
+      "alternativeDescriptions": {
+        "fr": "Wellimmo vous emmène à Forrières, charmant village de la commune de Nassogne, à la découverte de cette maison en pierre, rénovée récemment. Avec 3 grandes chambres (dont une avec terrasse et vue sur le jardin) et un bureau, deux salles de bain, de belles pièces de vie, un garage, des espaces de rangement, le grenier aménageable, une terrasse et un petit jardin, elle est parfaite pour une famille ! Elle dispose en outre d'une agréable situation dans le village, mais au long d'une voirie privative. A visiter sans tarder !",
+        "nl": "Wellimmo neemt u mee naar Forrières, een charmant dorp in de gemeente Nassogne, op ontdekking van dit recent gerenoveerde stenen huis. Met 3 grote kamers (waarvan één met terras en zicht op de tuin) en een kantoor, twee badkamers, mooie woonruimten, een garage, opbergruimtes, een zolder die nog kan worden ingericht, is het perfect voor een gezin! Het heeft bovendien een aangename ligging in het dorp, maar langs een private weg. Dit moet u meteen komen bezichtigen!"
+      },
+      "habitableUnitCount": null,
+      "fireplaceCount": null,
+      "fireplaceExists": false,
+      "hasTerrace": true,
+      "terraceSurface": 15,
+      "terraceOrientation": null
+    }}
