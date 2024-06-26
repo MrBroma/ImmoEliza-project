@@ -1,0 +1,35 @@
+import cloudscraper
+from bs4 import BeautifulSoup
+import json
+
+# Initialize the scraper
+scraper = cloudscraper.create_scraper()
+
+# Root URL of Immoweb website to use and URL suffix
+root_url = "https://www.immoweb.be/en/search/house/for-sale?countries=BE&page="
+suffix_url = "&orderBy=relevance"
+
+page = 1
+status = 200
+url_dict = {}
+url_count = 1
+
+while status == 200:
+    html = scraper.get(f"{root_url}{page}{suffix_url}")
+    status = html.status_code
+    print(page, status)
+
+    soup = BeautifulSoup(html.text, 'html.parser')
+
+    for h2 in soup.find_all('h2', class_='card__title card--result__title'):
+        for link in h2.find_all('a', class_='card__title-link'):
+            url = link.get('href')
+            print(url)
+            url_dict[f"url_{url_count}"] = url
+            url_count += 1
+    page += 1
+
+# Write the collected URLs to a JSON file
+with open('links.json', 'w') as json_file:
+    json.dump(url_dict, json_file, indent=4)
+
