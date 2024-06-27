@@ -15,7 +15,7 @@ html_data = html.css("script[type='text/javascript']")
 
 for script in html_data:
     try:
-        data = chompjs.parse_js_object(script.text())['property']
+        data = chompjs.parse_js_object(script.text())
         print(data)
     except:
         pass
