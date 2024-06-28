@@ -1,7 +1,23 @@
 # File to obtain the data of one page inside data variable in scaper_onepage.py
 class Property_data:
+    """
+    A class to hold and provide access to detailed property information.
+
+    Attributes
+    ----------
+    data : dict
+        The dictionary containing the property details.
+    """
 
     def __init__(self, data):
+        """
+        Initializes the Property_data with a dictionary of property information.
+
+        Parameters
+        ----------
+        data_dict : dict
+            The dictionary containing the property details.
+        """
         self.data = data
         pass
 

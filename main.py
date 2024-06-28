@@ -10,7 +10,17 @@ from random import uniform
 current_directory = os.path.dirname(__file__)
 json_file_path = os.path.join(current_directory, 'links.json')
 
-def scrape_and_save(link, csv_file_path):
+def scrape_and_save(link: str, csv_file_path: str) -> None:
+    """
+    Scrapes property details from a given URL and saves them to a CSV file.
+
+    Parameters:
+    - link (str): URL of the property to scrape.
+    - csv_file_path (str): File path to save the property details CSV.
+
+    Processes data through property detail classes and appends or creates a CSV
+    file with property details. Handles missing data by replacing it with 'NaN'.
+    """
     obj = ImmowebFeatures(link)
     data = obj.scrape_features()
     if data:
@@ -49,7 +59,17 @@ def scrape_and_save(link, csv_file_path):
         else:
             df.to_csv(csv_file_path, mode='w', header=True, index=False)
 
-def read_links(file_path, csv_file_path):
+def read_links(file_path: str, csv_file_path: str) -> None:
+    """
+    Reads property URLs from a JSON file and scrapes them in batches.
+
+    Parameters:
+    - file_path (str): Path to the JSON file containing property URLs.
+    - csv_file_path (str): Path where the CSV file will be saved.
+
+    Utilizes concurrent threads to speed up the scraping process and includes
+    a random delay between batches to avoid hitting server-side rate limits.
+    """
     with open(file_path, 'r') as url_immoweb:
         links = json.load(url_immoweb)
 

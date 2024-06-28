@@ -4,11 +4,29 @@ import chompjs
 import cloudscraper
 
 class ImmowebFeatures:
+    """
+    A class to scrape detailed property information from a given Immoweb property URL.
+
+    Attributes
+    ----------
+    scraper : cloudscraper.CloudScraper
+        The scraper object to handle requests.
+    url : str
+        The URL of the property to scrape.
+    """
     def __init__(self, url):
         self.scraper = cloudscraper.create_scraper()
         self.url = url
 
     def scrape_features(self):
+        """
+        Initializes the ImmowebFeatures with a specific URL.
+
+        Parameters
+        ----------
+        url : str
+            The URL of the property to scrape.
+        """
         try:
             response = self.scraper.get(self.url)
             if response.status_code != 200:
