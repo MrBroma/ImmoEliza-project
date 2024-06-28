@@ -1,0 +1,468 @@
+{
+    "id": 11472054,
+    "cluster": null,
+    "customers": [
+        {
+            "id": 3873435,
+            "type": "AGENCY",
+            "email": "immowebimmoderas@importfrommedia.be",
+            "logoUrl": "https://media.immowebstatic.be/customers/0012p00004Da6N3AAJ/logo/10220419f37f437c2764f5c4a72ca6ea.jpg",
+            "phoneNumber": "+3253606560",
+            "mobileNumber": null,
+            "name": "Immo De Ras",
+            "website": "http://www.immoderas.be",
+            "location": {
+                "country": "Belgium",
+                "region": null,
+                "province": "East Flanders",
+                "district": "Aalst",
+                "locality": "Lede",
+                "postalCode": "9340",
+                "street": "Hoogstraat 20",
+                "number": null,
+                "box": null,
+                "propertyName": null,
+                "floor": null,
+                "latitude": 50.9643766,
+                "longitude": 3.9774016,
+                "distance": null,
+                "approximated": null,
+                "regionCode": null,
+                "type": null,
+                "hasSeaView": null,
+                "pointsOfInterest": null,
+                "placeName": null
+            },
+            "ipiNo": "503550",
+            "isOwner": true,
+            "contactHoursMobile": "anytime",
+            "contactHoursLandline": "anytime",
+            "salesRepresentative": null,
+            "features": {
+                "page404": true,
+                "investorFlag": false,
+                "relatedClassifieds": true,
+                "leafletsCTA": false,
+                "leadQualification": true,
+                "recommendation": true
+            }
+        }
+    ],
+    "premiumProjectPage": {
+        "medias": null,
+        "options": null,
+        "promoter": null,
+        "tabs": null
+    },
+    "flags": {
+        "isPublicSale": false,
+        "isNewClassified": true,
+        "isNewPrice": false,
+        "isInvestmentProject": false,
+        "isNewlyBuilt": false,
+        "isNotarySale": null,
+        "isLifeAnnuitySale": false,
+        "adQuality": null,
+        "date": null,
+        "priceSqm": null,
+        "price": null,
+        "default": null,
+        "isSoldOrRented": false,
+        "isLowEnergy": null,
+        "percentSold": null,
+        "isPassiveHouse": null,
+        "isNewRealEstateProject": false,
+        "isAnInteractiveSale": null,
+        "isUnderOption": false
+    },
+    "media": {
+        "pictures": [
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/8d8e826a7fbf9b08def83b60b3163828.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/8d8e826a7fbf9b08def83b60b3163828.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/8d8e826a7fbf9b08def83b60b3163828.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/0d703e9c1526c5f37dece4ea059e3261.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/0d703e9c1526c5f37dece4ea059e3261.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/0d703e9c1526c5f37dece4ea059e3261.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/b6f3a173423695de69b0673676dae619.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/b6f3a173423695de69b0673676dae619.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/b6f3a173423695de69b0673676dae619.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/1623a5f92cbc37b7268a8785db98118c.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/1623a5f92cbc37b7268a8785db98118c.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/1623a5f92cbc37b7268a8785db98118c.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/7b1d770f29723008c285e4353eeec99a.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/7b1d770f29723008c285e4353eeec99a.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/7b1d770f29723008c285e4353eeec99a.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/9f9b874cca7531e138a941ce2d600d47.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/9f9b874cca7531e138a941ce2d600d47.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/9f9b874cca7531e138a941ce2d600d47.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/b954066db8fc4857c8c63d02f0174c70.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/b954066db8fc4857c8c63d02f0174c70.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/b954066db8fc4857c8c63d02f0174c70.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/05a90f680d2b63518311ea07ec0002b2.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/05a90f680d2b63518311ea07ec0002b2.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/05a90f680d2b63518311ea07ec0002b2.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/3ad8f4753adc77ee6de77ef32586beef.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/3ad8f4753adc77ee6de77ef32586beef.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/3ad8f4753adc77ee6de77ef32586beef.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/b44d40f130f3bc84c36722ba1936e7f7.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/b44d40f130f3bc84c36722ba1936e7f7.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/b44d40f130f3bc84c36722ba1936e7f7.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/d7ed16fe4db566e96b9da31736712fd4.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/d7ed16fe4db566e96b9da31736712fd4.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/d7ed16fe4db566e96b9da31736712fd4.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/32b8b794a089c06c0856f51c0afab8ca.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/32b8b794a089c06c0856f51c0afab8ca.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/32b8b794a089c06c0856f51c0afab8ca.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/2818e2c652675837ccb75fe78a1cfcc1.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/2818e2c652675837ccb75fe78a1cfcc1.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/2818e2c652675837ccb75fe78a1cfcc1.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/243be49558e72bcdf99995690bad3d83.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/243be49558e72bcdf99995690bad3d83.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/243be49558e72bcdf99995690bad3d83.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/ffd2075eac5093f9cff0b72a7687dda0.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/ffd2075eac5093f9cff0b72a7687dda0.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/ffd2075eac5093f9cff0b72a7687dda0.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/a7694535cc31eb261dae9e14606251bc.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/a7694535cc31eb261dae9e14606251bc.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/a7694535cc31eb261dae9e14606251bc.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/6bbbf2eb918c0d25599df5a71fceb3d4.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/6bbbf2eb918c0d25599df5a71fceb3d4.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/6bbbf2eb918c0d25599df5a71fceb3d4.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/22ea66d248e28ea8022da2693e772d96.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/22ea66d248e28ea8022da2693e772d96.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/22ea66d248e28ea8022da2693e772d96.jpg",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/100x100/e2bc507347053186237069a99f907a9b.jpg",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/300x300/e2bc507347053186237069a99f907a9b.jpg",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/4dc0e3a3-15f7-4d12-9e6b-740322f10f40/736x736/e2bc507347053186237069a99f907a9b.jpg",
+                "isVertical": false
+            }
+        ],
+        "virtualTourUrl": null,
+        "floorPlans": null,
+        "specifications": null,
+        "virtualExperienceUrl": null
+    },
+    "property": {
+        "type": "HOUSE",
+        "subtype": "HOUSE",
+        "title": "VLEKKEM - Eengezinswoning met 4 slpks en leuke tuin.",
+        "description": "BEZOEKDAG ZATERDAG 29/6 VAN 14U TOT 16U (enkel op afspraak!) \n\nVLEKKEM - Deze aangename open bebouwing kunt u vinden in een rustige straat in het mooie Vlekkem, een deelgemeente van Erpe - Mere. \nDeze woning heeft door de jaren heen heel wat verbouwingen ondergaan die het comfort verhogen zoals CV aardgas, isolatie, HR glas, nieuwe buizen en oprit, gevel in spuitkurk, airco op de slaapkamers en aanbouw, zonnepanelen,...\n\nNaar indeling toe beschikt de woning op het gelijkvloers over een inkomhal,  een ruime volledig ge\u00efnstalleerde leefkeuken met aanpalend een praktische wasplaats en een eerste badkamer met ligbad. Daarnaast is er de mooie aanbouw/veranda met zicht op de tuin en een lichtrijke woonruimte met inbouwcassette. Het gelijkvloers bevat ook nog een apart gastentoilet en een tweede berging of bureauruimte. \nOp de eerste verdieping bevinden zich naast de nachthal, 4 slaapkamers met airco en een verzorgde badkamer voorzien van douche, lavabo en een derde toilet. \nDaarnaast beschikt de woning nog over een zolderruimte (met ladder), een ruime garage met sectionale poort en een kelder. \n\nOpzij en vooraan de woning is voldoende parkeerruimte voorzien. De tuin werd mooie aangelegd, heeft een leuk terras in hardhout en is volledig afgesloten.\n\nTroeven: gunstig EPC, 21 zonnepanelen, elektriciteit conform, ruime bewoonbare oppervlakte, airco (warmte/koeling),...\n\nIn de directe omgeving bevinden zich buurtwinkels, scholen, openbaar vervoer, invalswegen en de E40.\n\nKortom bent u o",
+        "name": null,
+        "isHolidayProperty": null,
+        "bedroomCount": 4,
+        "bedrooms": [
+            {
+                "surface": 12
+            },
+            {
+                "surface": 10
+            },
+            {
+                "surface": 13
+            },
+            {
+                "surface": 11
+            }
+        ],
+        "bathroomCount": 2,
+        "bathrooms": [],
+        "location": {
+            "country": "Belgium",
+            "region": "Flanders",
+            "province": "East Flanders",
+            "district": "Aalst",
+            "locality": "Erpe - Mere",
+            "postalCode": "9420",
+            "street": "Vlekkemdorp",
+            "number": "13",
+            "box": null,
+            "propertyName": null,
+            "floor": null,
+            "latitude": 50.9351006,
+            "longitude": 3.9316277,
+            "distance": null,
+            "approximated": null,
+            "regionCode": "FLANDERS",
+            "type": "URBAN",
+            "hasSeaView": null,
+            "pointsOfInterest": null,
+            "placeName": "Oost- Vlaanderen"
+        },
+        "netHabitableSurface": 182,
+        "roomCount": null,
+        "monthlyCosts": null,
+        "attic": null,
+        "hasAttic": null,
+        "basement": {
+            "surface": null
+        },
+        "hasBasement": true,
+        "hasDressingRoom": null,
+        "diningRoom": null,
+        "hasDiningRoom": null,
+        "building": {
+            "annexCount": null,
+            "condition": "GOOD",
+            "constructionYear": null,
+            "facadeCount": 4,
+            "floorCount": null,
+            "streetFacadeWidth": 11.5
+        },
+        "propertyCertificates": {
+            "builtPlanStatus": "YES_CONFORM",
+            "globalInsulationLevel": null,
+            "oilTankCertificateStatus": "NOT_SPECIFIED",
+            "primaryEnergyConsumptionLevel": null,
+            "hasAsbestosCertificate": null
+        },
+        "hasCaretakerOrConcierge": null,
+        "hasDisabledAccess": false,
+        "hasLift": false,
+        "constructionPermit": {
+            "constructionType": null,
+            "floodZoneType": "NON_FLOOD_ZONE",
+            "isObtained": true,
+            "hasObligationToConstruct": null,
+            "hasPlotDivisionAuthorization": false,
+            "hasPossiblePriorityPurchaseRight": false,
+            "isBreachingUrbanPlanningRegulation": false,
+            "floodZoneIconUrl": null,
+            "totalBuildableGroundFloorSurface": 102,
+            "urbanPlanningInformation": null,
+            "pScore": "A",
+            "gScore": "A"
+        },
+        "energy": {
+            "heatingType": "GAS",
+            "hasHeatPump": null,
+            "hasPhotovoltaicPanels": null,
+            "hasThermicPanels": true,
+            "hasCollectiveWaterHeater": null,
+            "hasDoubleGlazing": true,
+            "performance": null
+        },
+        "kitchen": {
+            "surface": 16,
+            "type": "HYPER_EQUIPPED",
+            "hasOven": null,
+            "hasMicroWaveOven": null,
+            "hasDishwasher": null,
+            "hasWashingMachine": null,
+            "hasFridge": null,
+            "hasFreezer": null,
+            "hasSteamOven": null
+        },
+        "land": {
+            "hasGasWaterElectricityConnection": true,
+            "hasPlotToRear": null,
+            "isFacingStreet": null,
+            "isFlat": null,
+            "isWooded": null,
+            "landWidth": 11,
+            "latestUseDesignation": "RES",
+            "rearLand": null,
+            "sewerConnection": "CONNECTED",
+            "surface": 461
+        },
+        "laundryRoom": {
+            "surface": null
+        },
+        "hasLaundryRoom": true,
+        "livingRoom": {
+            "surface": 29
+        },
+        "hasLivingRoom": true,
+        "isFirstOccupation": null,
+        "hasBalcony": null,
+        "hasBarbecue": null,
+        "hasGarden": true,
+        "gardenSurface": 200,
+        "gardenOrientation": null,
+        "parkingCountIndoor": 1,
+        "parkingCountOutdoor": 3,
+        "parkingCountClosedBox": null,
+        "hasAirConditioning": null,
+        "hasArmoredDoor": null,
+        "hasVisiophone": null,
+        "hasSecureAccessAlarm": null,
+        "hasCableTV": null,
+        "hasDoorPhone": null,
+        "hasInternet": null,
+        "showerRoomCount": null,
+        "showerRooms": [],
+        "specificities": null,
+        "toiletCount": 2,
+        "toilets": [],
+        "hasFitnessRoom": null,
+        "hasTennisCourt": null,
+        "hasSwimmingPool": false,
+        "hasSauna": null,
+        "hasJacuzzi": null,
+        "hasHammam": null,
+        "bedroomSurface": null,
+        "alternativeDescriptions": {
+            "fr": "BEZOEKDAG ZATERDAG 29/6 VAN 14U TOT 16U (enkel op afspraak!) \n\nVLEKKEM - Deze aangename open bebouwing kunt u vinden in een rustige straat in het mooie Vlekkem, een deelgemeente van Erpe - Mere. \nDeze woning heeft door de jaren heen heel wat verbouwingen ondergaan die het comfort verhogen zoals CV aardgas, isolatie, HR glas, nieuwe buizen en oprit, gevel in spuitkurk, airco op de slaapkamers en aanbouw, zonnepanelen,...\n\nNaar indeling toe beschikt de woning op het gelijkvloers over een inkomhal,  een ruime volledig ge\u00efnstalleerde leefkeuken met aanpalend een praktische wasplaats en een eerste badkamer met ligbad. Daarnaast is er de mooie aanbouw/veranda met zicht op de tuin en een lichtrijke woonruimte met inbouwcassette. Het gelijkvloers bevat ook nog een apart gastentoilet en een tweede berging of bureauruimte. \nOp de eerste verdieping bevinden zich naast de nachthal, 4 slaapkamers met airco en een verzorgde badkamer voorzien van douche, lavabo en een derde toilet. \nDaarnaast beschikt de woning nog over een zolderruimte (met ladder), een ruime garage met sectionale poort en een kelder. \n\nOpzij en vooraan de woning is voldoende parkeerruimte voorzien. De tuin werd mooie aangelegd, heeft een leuk terras in hardhout en is volledig afgesloten.\n\nTroeven: gunstig EPC, 21 zonnepanelen, elektriciteit conform, ruime bewoonbare oppervlakte, airco (warmte/koeling),...\n\nIn de directe omgeving bevinden zich buurtwinkels, scholen, openbaar vervoer, invalswegen en de E40.\n\nKortom bent u o",
+            "nl": "BEZOEKDAG ZATERDAG 29/6 VAN 14U TOT 16U (enkel op afspraak!) \n\nVLEKKEM - Deze aangename open bebouwing kunt u vinden in een rustige straat in het mooie Vlekkem, een deelgemeente van Erpe - Mere. \nDeze woning heeft door de jaren heen heel wat verbouwingen ondergaan die het comfort verhogen zoals CV aardgas, isolatie, HR glas, nieuwe buizen en oprit, gevel in spuitkurk, airco op de slaapkamers en aanbouw, zonnepanelen,...\n\nNaar indeling toe beschikt de woning op het gelijkvloers over een inkomhal,  een ruime volledig ge\u00efnstalleerde leefkeuken met aanpalend een praktische wasplaats en een eerste badkamer met ligbad. Daarnaast is er de mooie aanbouw/veranda met zicht op de tuin en een lichtrijke woonruimte met inbouwcassette. Het gelijkvloers bevat ook nog een apart gastentoilet en een tweede berging of bureauruimte. \nOp de eerste verdieping bevinden zich naast de nachthal, 4 slaapkamers met airco en een verzorgde badkamer voorzien van douche, lavabo en een derde toilet. \nDaarnaast beschikt de woning nog over een zolderruimte (met ladder), een ruime garage met sectionale poort en een kelder. \n\nOpzij en vooraan de woning is voldoende parkeerruimte voorzien. De tuin werd mooie aangelegd, heeft een leuk terras in hardhout en is volledig afgesloten.\n\nTroeven: gunstig EPC, 21 zonnepanelen, elektriciteit conform, ruime bewoonbare oppervlakte, airco (warmte/koeling),...\n\nIn de directe omgeving bevinden zich buurtwinkels, scholen, openbaar vervoer, invalswegen en de E40.\n\nKortom bent u o"
+        },
+        "habitableUnitCount": null,
+        "fireplaceCount": null,
+        "fireplaceExists": false,
+        "hasTerrace": true,
+        "terraceSurface": 20,
+        "terraceOrientation": "EAST"
+    },
+    "publication": {
+        "creationDate": "2024-06-18T10:00:55.653Z",
+        "expirationDate": null,
+        "publisherId": null,
+        "visualisationOption": "XL",
+        "lastModificationDate": "2024-06-24T08:08:07.091Z"
+    },
+    "transaction": {
+        "type": "FOR_SALE",
+        "subtype": "BUY_REGULAR",
+        "availabilityPeriodType": null,
+        "availabilityDate": null,
+        "certificates": {
+            "carbonEmission": null,
+            "hasElectricalInstallationComplianceCertificate": null,
+            "primaryEnergyConsumptionPerSqm": 248,
+            "primaryEnergyConsumptionYearly": null,
+            "epcDescription": null,
+            "epcReference": "C",
+            "epcScore": "C",
+            "epcUrl": "https://static.immoweb.be/pics/peb/fla/c.png",
+            "renovationObligation": false
+        },
+        "rental": null,
+        "sale": {
+            "price": 389000,
+            "isSubjectToVat": false,
+            "cadastralIncome": 364,
+            "publicSale": null,
+            "pricePerSqm": null,
+            "oldPrice": null,
+            "lifeAnnuity": null,
+            "hasStartingPrice": null,
+            "isFurnished": false,
+            "homeToBuild": null,
+            "newBuildsTotalPrice": "",
+            "newBuildsVAT": "",
+            "newBuildsLandPrice": "",
+            "newBuildsLandTaxes": ""
+        },
+        "investor": {
+            "isInvestmentProperty": false,
+            "currentMonthlyRentalIncome": null,
+            "currentReturnOnInvestment": null,
+            "expectedMonthlyRentalIncome": null,
+            "expectedMonthlyRentalIncomeDescription": null,
+            "expectedReturnOnInvestment": null,
+            "habitableUnitCount": null,
+            "occupancyRate": null
+        }
+    },
+    "priceType": null,
+    "price": {
+        "type": "residential_sale",
+        "mainValue": 389000,
+        "alternativeValue": null,
+        "additionalValue": null,
+        "oldValue": null,
+        "minRangeValue": null,
+        "maxRangeValue": null,
+        "mainDisplayPrice": "\u20ac389,000",
+        "HTMLDisplayPrice": "<span aria-hidden=\"true\">\u20ac389,000</span>",
+        "alternativeDisplayPrice": "",
+        "oldDisplayPrice": null,
+        "shortDisplayPrice": "\u20ac389K",
+        "accessibilityPrice": "389000\u20ac",
+        "label": "Price",
+        "date": null,
+        "language": "en"
+    },
+    "externalReference": "6031832",
+    "isBookmarked": false,
+    "hasSectionsArray": {
+        "hasGeneralSection": true,
+        "hasInteriorSection": true,
+        "hasExteriorSection": true,
+        "hasFacilitiesSection": false,
+        "hasEnergySection": true,
+        "hasPlanningSection": true,
+        "hasFinancialSection": true,
+        "hasPublicSaleSection": false
+    },
+    "unitGroupings": [],
+    "displayFlags": {
+        "main": "new",
+        "secondary": [],
+        "percentSold": null
+    },
+    "statistics": {
+        "bookmarkCount": 21,
+        "viewCount": 1142,
+        "alertPrice": null,
+        "creationDate": null,
+        "description": null,
+        "isAlertEmailSet": null,
+        "rating": null,
+        "wasOwnerContacted": null,
+        "wasPropertyVisited": null
+    }
+}
