@@ -1,3 +1,5 @@
+# File to obtain the data of one page inside data variable in scaper_onepgage.py
+
 class Property_data:
 
     def __init__(self, data_dict):
