@@ -1,51 +1,70 @@
-import requests
-from selectolax.parser import HTMLParser
-import chompjs
-import cloudscraper
 import json
+import os
+import time
 import pandas as pd
-import Property_data from .utils_scraper.Property_data
+from utils_scraper.property_details import ImmowebFeatures
+from utils_scraper.property_data import Property_data
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from random import uniform
 
+current_directory = os.path.dirname(__file__)
+json_file_path = os.path.join(current_directory, 'links.json')
 
-classe = Property_data(data_dict)
+def scrape_and_save(link, csv_file_path):
+    obj = ImmowebFeatures(link)
+    data = obj.scrape_features()
+    if data:
+        property_obj = Property_data(data)
+        property_dict = {
+            "house_id": property_obj.property_id(),
+            "city": property_obj.locality(),
+            "property_type": property_obj.property_type(),
+            "subtype": property_obj.property_subtype(),
+            "price": property_obj.price(),
+            "sale_type": property_obj.sale_type(),
+            "rooms": property_obj.room_number(),
+            "bathrooms": property_obj.bathroom_number(),
+            "living_area": property_obj.living_area(),
+            "kitchen": property_obj.kitchen(),
+            "fireplace": property_obj.fireplace(),
+            "terrace": property_obj.terrace(),
+            "terrace_surface": property_obj.terrace_surface(),
+            "garden": property_obj.garden(),
+            "garden_surface": property_obj.garden_surface(),
+            "plot_surface": property_obj.plot_surface(),
+            "facade_number": property_obj.facade_number(),
+            "swimming_pool": property_obj.swimmingpool(),
+            "building_condition": property_obj.building_condition()
+        }
 
-# calling functions
-house_id = classe.property_id()
-city = classe.locality()
-property_type = classe.property_type()
-sub = classe.property_subtype()
-price = classe.price()
-sale_type = classe.sale_type()
-rooms = classe.room_number()
-bath = classe.bathroom_number()
-area = classe.living_area()
-kitchen = classe.kitchen()
-fire = classe.fireplace()
-terrace = classe.terrace()
-terrace_m2 = classe.terrace_surface()
-garden = classe.garden()
-garden_m2 = classe.garden_surface()
-surface = classe.plot_surface()
-facade = classe.facade_number()
-pool = classe.swimmingpool()
-house_condition = classe.building_condition()
+        # Replace empty, None, or "null" values with NaN
+        property_dict = {k: (v if v not in ["", None, "null"] else "NaN") for k, v in property_dict.items()}
+        
+        # Create a DataFrame for the current property
+        df = pd.DataFrame([property_dict])
+        
+        # Save to CSV (append mode)
+        if os.path.exists(csv_file_path):
+            df.to_csv(csv_file_path, mode='a', header=False, index=False)
+        else:
+            df.to_csv(csv_file_path, mode='w', header=True, index=False)
 
+def read_links(file_path, csv_file_path):
+    with open(file_path, 'r') as url_immoweb:
+        links = json.load(url_immoweb)
 
-print(house_id, city, property_type, sub, price, sale_type, rooms, bath)
-print(area, kitchen, fire, terrace, terrace_m2, garden, garden_m2, surface, facade)
-print(pool, house_condition)
+    batch_size = 20  # Number of concurrent threads to run
+    total_links = len(links)
+    
+    with ThreadPoolExecutor(max_workers=batch_size) as executor:
+        for i in range(0, total_links, batch_size):
+            futures = [executor.submit(scrape_and_save, link, csv_file_path) for link in links[i:i + batch_size]]
+            for future in as_completed(futures):
+                future.result()
+            time.sleep(uniform(2, 5))  # Random delay between batches
 
-# Create a sample dataframe
-property_dict = {'house_id' : [house_id],
-                 'Locality' : [city],
-                 'Property_type': [property_type],
-                 'Property_subtype': [sub],
-                 'Price' : [price]
-                 }
+# File path for the CSV file
+csv_file_path = os.path.join(current_directory, 'properties_data.csv')
 
-df = pd.DataFrame(property_dict)
-
-# Save the dataframe to a CSV file
-df.to_csv('test_pro.csv', index=False)
-
-
+# Run the scraping and save to CSV
+read_links(json_file_path, csv_file_path)

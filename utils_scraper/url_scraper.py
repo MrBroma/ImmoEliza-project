@@ -11,7 +11,7 @@ class ImmowebScraper:
         self.url_list = []
 
     def scrape_urls(self):
-        page = 330
+        page = 1
         while self.status_code == 200:
             url = f"{self.root_url}{page}"
             html = self.scraper.get(url)
