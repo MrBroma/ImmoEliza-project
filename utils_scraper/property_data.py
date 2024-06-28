@@ -1,10 +1,3 @@
-import requests
-from selectolax.parser import HTMLParser
-import chompjs
-import cloudscraper
-import json
-import pandas as pd
-
 class Property_data:
 
     def __init__(self, data_dict):
@@ -103,5 +96,4 @@ class Property_data:
         if (self.data_dict.get('property') and self.data_dict['property'].get('building') and 'condition' in self.data_dict['property']['building']):
             return self.data_dict['property']['building']['condition']
         return None
-
 
