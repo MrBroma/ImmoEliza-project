@@ -11,6 +11,15 @@
     
     This code allows to obtain a csv file with multiple details from houses available in the Belgiam real estate market
 
+   ```python
+   # To scrape all the URLs of the website
+   python3 utils_scraper/url_scraper.py
+
+   # To execute the scraping
+   python3 main.py
+   ```
+
+
    - (Visuals)
 
    - (Contributors)
