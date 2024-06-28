@@ -23,6 +23,9 @@ class ImmowebFeatures:
                 pass
 
 
+with open(links., 'r') as json_file:
+    json.dump(self.url_list, json_file, indent=4)
+
 url = "https://www.immoweb.be/en/classified/house/for-sale/la-louviere/7100/11428289"
 
 test = ImmowebFeatures(url)

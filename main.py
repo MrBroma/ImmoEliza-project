@@ -4,7 +4,7 @@ import chompjs
 import cloudscraper
 import json
 import pandas as pd
-import Property_data from .utils_scraper/Property_data
+import Property_data from .utils_scraper.Property_data
 
 
 classe = Property_data(data_dict)
