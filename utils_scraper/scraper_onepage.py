@@ -22,10 +22,14 @@ for script in html_data:
     data_dict = chompjs.parse_js_object(script.text())
     break
 
+
+
+
+
+
 classe = Property_data(data_dict)
 
 # calling functions
-
 house_id = classe.property_id()
 city = classe.locality()
 property_type = classe.property_type()
@@ -63,3 +67,5 @@ df = pd.DataFrame(property_dict)
 
 # Save the dataframe to a CSV file
 df.to_csv('test_pro.csv', index=False)
+
+
