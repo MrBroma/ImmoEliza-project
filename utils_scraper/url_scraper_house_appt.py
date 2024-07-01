@@ -29,9 +29,6 @@ class ImmowebScraper:
                     else:
                         self.status_code = 404
                         break
-                
-                if not results:
-                    break
 
                 for html in results:
                     soup = BeautifulSoup(html, 'html.parser')
