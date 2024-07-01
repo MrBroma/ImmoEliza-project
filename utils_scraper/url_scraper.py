@@ -45,10 +45,8 @@ class ImmowebScraper:
                     url = link.get('href')
                     self.url_list.append(url)
             page += 1
-            print(page, self.status_code)
 
-
-    def save_urls_to_json(self, filename: str ='links.json') ->None:
+    def save_urls_to_json(self, filename: str ='links.json') -> None:
         with open(filename, 'w') as json_file:
             json.dump(self.url_list, json_file, indent=4)
 
