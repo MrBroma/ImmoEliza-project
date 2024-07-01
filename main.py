@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from random import uniform
 
 current_directory = os.path.dirname(__file__)
-json_file_path = os.path.join(current_directory, 'links.json')
+json_file_path = os.path.join(current_directory, 'combined_links.json')
 
 def scrape_and_save(link: str, csv_file_path: str) -> None:
     """
@@ -36,6 +36,7 @@ def scrape_and_save(link: str, csv_file_path: str) -> None:
             "bathrooms": property_obj.bathroom_number(),
             "living_area": property_obj.living_area(),
             "kitchen": property_obj.kitchen(),
+            "furnished" : property_obj.furnished(),
             "fireplace": property_obj.fireplace(),
             "terrace": property_obj.terrace(),
             "terrace_surface": property_obj.terrace_surface(),
@@ -44,7 +45,8 @@ def scrape_and_save(link: str, csv_file_path: str) -> None:
             "plot_surface": property_obj.plot_surface(),
             "facade_number": property_obj.facade_number(),
             "swimming_pool": property_obj.swimmingpool(),
-            "building_condition": property_obj.building_condition()
+            "building_condition": property_obj.building_condition(),
+            "flood_zone": property_obj.flood_zone()
         }
 
         # Replace empty, None, or "null" values with NaN
@@ -83,8 +85,15 @@ def read_links(file_path: str, csv_file_path: str) -> None:
                 future.result()
             time.sleep(uniform(2, 5))  # Random delay between batches
 
+
+
+
+
 # File path for the CSV file
 csv_file_path = os.path.join(current_directory, 'properties_data.csv')
 
 # Run the scraping and save to CSV
 read_links(json_file_path, csv_file_path)
+
+
+

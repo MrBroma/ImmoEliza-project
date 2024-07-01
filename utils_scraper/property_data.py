@@ -72,8 +72,8 @@ class Property_data:
         return None
 
     def fireplace(self):
-        if (self.data.get('property') and 'fireplaceCount' in self.data['property']):
-            return self.data['property']['fireplaceCount']
+        if (self.data.get('property') and 'fireplaceExists' in self.data['property']):
+            return self.data['property']['fireplaceExists']
         return None
 
     def terrace(self):
@@ -88,7 +88,7 @@ class Property_data:
 
     def garden(self):
         if (self.data.get('property') and 'hasGarden' in self.data['property']):
-            return self.data['property']['terraceSurface']
+            return self.data['property']['hasGarden']
         return None
     
     def garden_surface(self):
@@ -114,5 +114,15 @@ class Property_data:
     def building_condition(self):
         if (self.data.get('property') and self.data['property'].get('building') and 'condition' in self.data['property']['building']):
             return self.data['property']['building']['condition']
+        return None
+
+    def furnished(self):
+        if (self.data.get('transaction') and self.data['transaction'].get('isFurnished') and 'price' in self.data['transaction']['sale']):
+            return self.data['transaction']['sale']['isFurnished']
+        return None
+    
+    def flood_zone(self):
+        if (self.data.get('property') and self.data['property'].get('constructionPermit') and 'floodZoneType' in self.data['property']['constructionPermit']):
+            return self.data['property']['constructionPermit']['floodZoneType']
         return None
 
